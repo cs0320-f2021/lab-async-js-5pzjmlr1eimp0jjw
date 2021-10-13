@@ -6,9 +6,9 @@
 //TODO: select the list where the suggestions should go, the input box where we're typing, and
 // the loading text
 //HINT: look at the hTML
-const suggestionList = _;
-const input = _;
-const loading = _;
+const suggestionList = document.;
+const input = ;
+const loading = ;
 
 input.addEventListener("keyup", () => {
   //TODO: empty the suggestionList (you want new suggestions each time someone types something
