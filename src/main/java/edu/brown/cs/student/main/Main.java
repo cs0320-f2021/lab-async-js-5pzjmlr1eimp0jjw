@@ -170,7 +170,7 @@ public final class Main {
             //TODO: use the global autocorrect instance to get the suggestions
             Set<String> suggestions = ac.suggest(usrEntry);
             //TODO: create an immutable map using the suggestions
-            Map vars = ImmutableMap.of("results", suggestions);
+            Map vars = ImmutableMap.of("suggestions", suggestions);
             //TODO: return a Json of the suggestions (HINT: use the GSON.Json())
             return GSON.toJson(vars);
         }
