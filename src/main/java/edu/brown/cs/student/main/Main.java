@@ -124,7 +124,7 @@ public final class Main {
     Spark.get("/autocorrect", new AutocorrectHandler(), freeMarker);
     //TODO: create a call to Spark.post to make a post request to a url which
     // will handle getting autocorrect results for the input
-    Spark.post("/autocorrect", new ResultsHandler());
+    Spark.post("/results", new ResultsHandler());
   }
 
   /**
